@@ -1,7 +1,6 @@
-function jogar(event) {
-  let btn = event.target.name;
+function jogar() {
+  const btn = event.target.name; // Atribuir o alvo escolhido
   console.log(btn);
 
-  if (btn == "tesoura") {
-  }
+  // Seria bom chamar outra função que rodasse a partida, e nessa funçao chamasse um outra função que gerava aleatoriamente uma resposta da CPU
 }

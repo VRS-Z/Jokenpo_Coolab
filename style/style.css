@@ -16,12 +16,57 @@ h1 {
   font-size: 2.4rem;
 }
 
+/*
+  Trocar essas cores mds
+*/
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
 .container-page {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: rgb(27, 3, 92);
+
+  height: 100vh;
 }
 
 .container-box {
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 6.4rem;
+
+  background-color: rgb(13, 139, 139);
+
+  width: 40rem;
+  height: 40rem;
+  padding: 1.2rem;
+  border-radius: 2.4rem;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.button {
+  background-color: rgb(120, 5, 166);
+
+  border: none;
+  border-radius: 1.6rem;
+  padding: 1.6rem;
+  color: #fff;
 }

@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jokenpo_Collab</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <script src="./src/script.js" defer></script>
+    <!-- defer: faz o script seja carregado dps que o arquivo index.html tiver carregado -->
   </head>
   <body>
     <section class="container-page">
       <div class="container-box">
-        <h1>Bora jogar Pedra, Papel e Tesoura!?</h1>
-        <p>Escolha um dos três:</p>
-        <ul>
+        <header>
+          <h1>Bora jogar Pedra, Papel e Tesoura!?</h1>
+          <p>Escolha um dos três:</p>
+        </header>
+        <!--
+          Na seção dos botões, devem trocar as escritas dos objetos por imagens
+          "Pedra" ==> "<img src="img/pedra.jpg">" ou "<svg>...icon de pedra...</svg>"
+        -->
+        <ul class="wrapper-button">
           <li>
-            <button name="Pedra" onclick="jogar()">Pedra</button>
+            <button class="button" name="Pedra" onclick="jogar()">Pedra</button>
           </li>
           <li>
-            <button name="Papel" onclick="jogar()">Papel</button>
+            <button class="button" name="Papel" onclick="jogar()">Papel</button>
           </li>
           <li>
-            <button name="Tesoura" onclick="jogar()">Tesoura</button>
+            <button class="button" name="Tesoura" onclick="jogar()">
+              Tesoura
+            </button>
           </li>
         </ul>
       </div>
     </section>
   </body>
-  <script src="./src/script.js"></script>
 </html>
