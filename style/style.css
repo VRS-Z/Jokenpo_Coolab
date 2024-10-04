@@ -1,6 +1,27 @@
-h1 {
-  color: blueviolet;
+:root {
+  font-size: 62.5%;
 }
-p {
-  color: aquamarine;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+.container-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box {
+  background-color: aqua;
 }
