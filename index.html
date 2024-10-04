@@ -4,18 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jokenpo_Collab</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <section class="container-page">
       <div class="container-box">
-        <h1 id="text">Bora jogar Pedra, Papel e Tesoura?!</h1>
+        <h1>Bora jogar Pedra, Papel e Tesoura!?</h1>
         <p>Escolha um dos três:</p>
-        <button>Pedra</button>
-        <button>Papel</button>
-        <button>Tesoura</button>
+        <ul>
+          <li>
+            <button name="Pedra" onclick="jogar()">Pedra</button>
+          </li>
+          <li>
+            <button name="Papel" onclick="jogar()">Papel</button>
+          </li>
+          <li>
+            <button name="Tesoura" onclick="jogar()">Tesoura</button>
+          </li>
+        </ul>
       </div>
     </section>
   </body>
+  <script src="./src/script.js"></script>
 </html>
